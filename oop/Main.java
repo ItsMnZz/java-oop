@@ -14,14 +14,14 @@ public class Main {
         // cars.add(car1);
         // cars.add(car2);
         // for (Car car : cars) {
-        //     System.out.println(car.make);
-        //     System.out.println(car.model);
-        //     System.out.println(car.year);
-        //     System.out.println(car.price);
-        //     System.out.println(car.isRunning);
-        //     System.out.println();
+        // System.out.println(car.make);
+        // System.out.println(car.model);
+        // System.out.println(car.year);
+        // System.out.println(car.price);
+        // System.out.println(car.isRunning);
+        // System.out.println();
         // }
-        
+
         Student student1 = new Student("Spongebob", 30, 3.2);
         Student student2 = new Student("Patrick", 34, 1.5);
         Student student3 = new Student("Sandy", 27, 4.0);
@@ -40,6 +40,19 @@ public class Main {
             student.study();
             System.out.println();
         }
-    }
 
+        // User user1 = new User("Spongebob");
+        // User user2 = new User("Patrick", "PStar@aol.gmail.com");
+        // User user3 = new User("Sandy", "Scheeks@gmail.com", 27);
+        // User user4 = new User();
+
+        // List<User> users = List.of(user1, user2, user3, user4);
+
+        // for (User user : users) {
+        //     System.out.println("Name: " + user.getName());
+        //     System.out.println("Email: " + user.getEmail());
+        //     System.out.println("Age: " + user.getAge());
+        //     System.out.println("-----------------------");
+        // }
+    }
 }
